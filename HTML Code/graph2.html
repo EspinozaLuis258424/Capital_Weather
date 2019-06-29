@@ -25,21 +25,20 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand no-margins" href="index.html">WeatherPy</a>
+                <a class="navbar-brand no-margins" href="index.html">Back to Home</a>
             </div>
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="comparisons.html">
-                            <span class="glyphicon glyphicon-transfer">
-                            </span>
-                            Plot Comparison
-                        </a></li>
-                    <li><a href="data.html">
-                            <span class="glyphicon glyphicon-th">
-                            </span>
-                            Data
-                        </a></li>
-                    <li class="dropdown">
+                <ul class="nav navbar-nav">                    
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigate Graphs
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="graph1.html">Graph One</a></li>
+                                <li><a href="graph2.html">Graph Two</a></li>
+                                <li><a href="graph3.html">Graph Three</a></li>
+                            </ul>
+                        </li>
+                    <!-- <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -48,7 +47,7 @@
                             <li><a href="clouds.html">Cloudiness</a></li>
                             <li><a href="wind.html">Wind</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -56,16 +55,11 @@
 
     <body>
         <div class="container">
-            <h1 class="plot-info">Latitude v. Humidty</h1>
-            <a target="_blank" href="Resources/latitude and humidity.png">
-                <img src="Resources/latitude and humidity.png" alt="Latitude and Humidity Plot" class="plot-img">
-            </a>
+            <h1 class="plot-info">Weather Heat Map</h1>
+            <a target="_blank" href="Resources/latitude and humidity.png"></a>
             <p class="plot-info">
-                Most cities, regardless of latitude, have over 60% humidity.
-                Many cities have 100% humidity.
+                In this Graph, Users can see the heat patterns across the country based on the Capitals and their current weather. 
             </br>
-            </br>
-                Latitudes with the greatest range of humidities were between 20 and 40 degrees away from the equator.
             </p>
         </div>
     </body>

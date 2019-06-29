@@ -1,29 +1,27 @@
 h1 {
-    color: #D6F8D6;
+    color: #FFFFFF;
     margin-top: -10px;
     margin-bottom: -5px;
     font-weight: bold;
 }
 
 h2 {
-    color: #D6F8D6;
+    color: #FFFFFF;
     font-weight: bold;
     padding: 15px;
 }
 
 h3 {
-    color: #D6F8D6;
+    color: #FFFFFF;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-p img {
+picture {
+    max-width: 50%;
+    height: auto;  
     float: left;
-    padding-right: 30px;
-    padding-bottom: 12px;
+    top: -10px;
+    position: relative;
+
 }
 
 p {
@@ -60,13 +58,13 @@ p.plot-info {
 }
 
 body {
-    background-color: #495867;
+    background-color: #002868;
     padding: 10px;
     margin: 10px;
 }
 
 .button {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 .no-margins {
