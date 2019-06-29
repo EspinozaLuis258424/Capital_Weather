@@ -12,7 +12,7 @@ from flask import Flask, jsonify
 # Database Setup
 #################################################
 
-engine = create_engine(f'mysql://root:Bibiana14!@localhost:3306')
+engine = create_engine(f'mysql://root:Password@localhost:3306')
 # reflect an existing database into a new model
 Base = automap_base()
 # reflect the tables
