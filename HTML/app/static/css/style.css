@@ -1,12 +1,72 @@
-/* remove default margin and padding from body */
-body {
-  padding: 0;
-  margin: 0;
+h1 {
+color: #FFFFFF;
+margin-top: -10px;
+margin-bottom: -5px;
+font-weight: bold;
 }
 
-/* set map, body, and html to 100% of the screen size */
-#map,
-body,
-html {
-  height: 100%;
+h2 {
+color: #FFFFFF;
+font-weight: bold;
+padding: 15px;
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+picture {
+    max-width: 50%;
+    height: auto;  
+    float: left;
+    top: -10px;
+    position: relative;
+
+}
+
+p {
+    margin: 20px;
+    padding: 25px;
+    background-color: #ABD2FA;
+}
+
+div .btn-group-vertical {
+    margin-left: 60px;
+}
+
+table {
+    color: #3b413c;
+    background-color: #D6F8D6;
+}
+
+
+.plot-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20 px;
+    width: 66%;
+}
+
+.plot-info {
+    text-align: center;
+}
+
+p.plot-info {
+    font-size: 15px;
+}
+
+body {
+    background-color: #002868;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button {
+    background-color: #FFFFFF;
+}
+
+.no-margins {
+    margin-left: 0 !important;
 }

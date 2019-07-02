@@ -1,7 +1,7 @@
 // Create our initial map object
 // Set the longitude, latitude, and the starting zoom level
 
-url = "/graph1"
+url = "/graph3"
 
 
 var myMap = L.map("map", {

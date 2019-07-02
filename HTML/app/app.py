@@ -17,16 +17,31 @@ for key,value in graph1_data.items():
 
 @app.route("/")
 def home():
-	return render_template("index.html")
+	return render_template("homepage.html")
+
+@app.route("/graph1.html")
+def graph_1():
+	return render_template("graph1.html")
 
 @app.route("/graph1")
 def index():
     return jsonify(my_list)
 
-# @app.route("/graph2")
-# def test():
+@app.route("/graph2.html")
+def graph_2():
+	return render_template("graph2.html")
 
-# @app.route("/graph3")
+@app.route("/graph2")
+def index2():
+	return jsonify(my_list)
+
+@app.route("/graph3.html")
+def graph_3():
+	return render_template("graph3.html")
+
+@app.route("/graph3")
+def index3():
+	return jsonify(my_list)
 
 if __name__ == "__main__":
 	app.run(debug=True)
