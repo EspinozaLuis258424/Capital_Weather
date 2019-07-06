@@ -56,9 +56,9 @@ crossorigin=""></script>
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Navigate Graphs
                                 <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="graph1.html">Graph One</a></li>
-                                        <li><a href="graph2.html">Graph Two</a></li>
-                                        <li><a href="graph3.html">Graph Three</a></li>
+                                        <li><a href="graph1.html">Marker Map</a></li>
+                                        <li><a href="graph2.html">Heat Map</a></li>
+                                        <li><a href="graph3.html">States and Capitals</a></li>
                                     </ul>
                                 </li> 
 <!--                                 <li class="dropdown">
@@ -89,13 +89,74 @@ crossorigin=""></script>
             <br>
             Here is a list of all the States and their Capitals. 
             <br>
-            <div id="map" style="height: 300px; width: auto;"></div>
+            <div id="map" style="height: 500px; width: auto;"></div>
             </p>
             <br>
             <script type="text/javascript" src="{{ url_for('static', filename='js/config.js') }}"></script>
             <script type="text/javascript" src="{{ url_for('static', filename='js/leaflet-heat.js') }}"></script>
         <script type="text/javascript" src="{{ url_for('static', filename='js/logic2.js') }}"></script>
         </p>
+        <br>
+        <h1>Learn More About The Capitals</h1>
+        <h2>Here is a list of all the States and their CapitalsS</h2>
+        <h3>Click On The City to Learn More</h3>
+        <p>
+           <ul>
+               <li><a href="http://www.montgomeryal.gov/">Alabama(AL)-Montgomery</a></li>
+               <li><a href="https://beta.juneau.org/">Alaska(AK)-Juneau</a></li>
+               <li><a href="https://www.phoenix.gov/">Arizona(AZ)-Phoenix</a></li>
+               <li><a href="https://www.littlerock.gov/">Arkansas(AR)-Little Rock</a></li>
+               <li><a href="https://www.cityofsacramento.org/">California(CA)-Sacramento</a></li>
+               <li><a href="https://www.denver.org/">Colorado(CO)-Denver</a></li>
+               <li><a href="http://www.hartford.gov/">Connecticut(CT)-Hartford</a></li>
+               <li><a href="https://www.cityofdover.com/">Delaware(DE)-Dover</a></li>
+               <li><a href="http://www.talgov.com/Main/Home.aspx">Florida(FL)-Tallahassee</a></li>
+               <li><a href="https://www.atlantaga.gov/">Georgia(GA)-Atlanta</a></li>
+               <li><a href="http://www.honolulu.gov/">Hawaii(HI)-Honolulu</a></li>
+               <li><a href="https://www.cityofboise.org/">Idaho(ID)-Boise</a></li>
+               <li><a href="http://www.visitspringfieldillinois.com/">Illinois(IL)-Springfield</a></li>
+               <li><a href="https://www.indy.gov/">Indiana(IN)-Indianapolis</a></li>
+               <li><a href="https://www.dsm.city/">Iowa(IA)-Des Moines</a></li>
+               <li><a href="https://www.topeka.org/">Kansas(KS)-Topeka</a></li>
+               <li><a href="https://www.frankfort.ky.gov/">Kentucky(KY)-Frankfort</a></li>
+               <li><a href="https://www.brla.gov/">Louisiana(LA)-Baton Rouge</a></li>
+               <li><a href="http://www.augustamaine.gov/">Maine(ME)-Augusta</a></li>
+               <li><a href="https://www.annapolis.gov/">Maryland(MD)-Annapolis</a></li>
+               <li><a href="https://www.boston.gov/">Massachusetts(MA)-Boston</a></li>
+               <li><a href="https://www.lansingmi.gov/">Michigan(MI)-Lansing</a></li>
+               <li><a href="https://www.stpaul.gov/">Minnesota(MN)-St. Paul</a></li>
+               <li><a href="https://www.jacksonms.gov/">Mississippi(MS)-Jackson</a></li>
+               <li><a href="http://www.jeffersoncitymo.gov/">Missouri(MO)-Jefferson City</a></li>
+               <li><a href="https://www.helenamt.gov/home.html">Montana(MT)-Helena</a></li>
+               <li><a href="https://www.lincoln.ne.gov/">Nebraska(NE)-Lincoln</a></li>
+               <li><a href="https://carson.org/">Nevada(NV)-Carson City</a></li>
+               <li><a href="https://www.concordnh.gov/">New Hampshire(NH)-Concord</a></li>
+               <li><a href="http://www.trentonnj.org/">New Jersey(NJ)-Trenton</a></li>
+               <li><a href="https://www.santafenm.gov/">New Mexico(NM)-Santa Fe</a></li>
+               <li><a href="https://www.albanyny.gov/Home.aspx">New York(NY)-Albany</a></li>
+               <li><a href="https://www.raleighnc.gov/">North Carolina(NC)-Raleigh</a></li>
+               <li><a href="https://www.bismarcknd.gov/">North Dekota(ND)-Bismark</a></li>
+               <li><a href="https://www.columbus.gov/">Ohio(OH)-Columbus</a></li>
+               <li><a href="https://www.okc.gov/">Oklahoma(OK)-Oklahoma City</a></li>
+               <li><a href="https://www.cityofsalem.net/">Oregon(OR)-Salem</a></li>
+               <li><a href="http://harrisburgpa.gov/">ennsylvania(PA)-Harrisburg</a>P</li>
+               <li><a href="http://www.providenceri.gov/">Rhode Island(RI)-Providence</a></li>
+               <li><a href="https://www.columbiasc.net/">South Carolina(SC)-Columbia</a></li>
+               <li><a href="https://www.cityofpierre.org/">South Dakota(SD)-Pierre</a></li>
+               <li><a href="https://www.nashville.gov/">Tennessee(TN)-Nashville</a></li>
+               <li><a href="http://www.austintexas.gov/">Texas(TX)-Austin</a></li>
+               <li><a href="https://www.slc.gov/">Utah(UT)-Salt Lake City</a></li>
+               <li><a href="https://www.montpelier-vt.org/">Vermont(VT)-Montpelier</a></li>
+               <li><a href="http://www.richmondgov.com/">Virginia(VA)-Richmond</a></li>
+               <li><a href="http://olympiawa.gov/">Washington(WA)-Olympia</a></li>
+               <li><a href="https://www.charlestonwv.gov/">West Virginia(WV)-Charleston</a></li>
+               <li><a href="https://www.wisconsin.gov/Pages/Home.aspx">Wisconsin(WI)-Madison</a></li>
+               <li><a href="https://www.cheyennecity.org/">Wyoming(WY)-Cheyenne</a></li>
+           </ul> 
+        </p>
+        <br>
+        <br>
+        <br>
     </div>
 </body>
 
