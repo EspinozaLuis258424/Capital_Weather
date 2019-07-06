@@ -28,7 +28,7 @@ for(let i = 0; i < data.length; i++){
   L.marker([data[i]['Lat'], data[i]['Lng']], {
     draggable: true,
     title: data[i]['City']
-  }).bindPopup("<h1>" + data[i]['City']+ "</h1> <hr> <h3>Temp: " + data[i]['Temp'] + "</h3>").addTo(myMap);
+  }).bindPopup("<h1>" + data[i]['City']+ "</h1> <hr> <h3>Temp: " + data[i]['Temp'] + "</h3> <hr> <h3>Wind:" + data[i]['Wind Speed'] + "</h3> <hr> <h3>Humidity:" + data[i]['Humidity']).addTo(myMap);
   }
 
 });
